@@ -13,6 +13,12 @@ const StyledOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media ${device.mobile} {
+    overflow: auto;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
 `;
 
 const StyledFormWrapper = styled.div`

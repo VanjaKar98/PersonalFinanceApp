@@ -42,7 +42,7 @@ const StyledButton = styled.button`
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 0.8rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
