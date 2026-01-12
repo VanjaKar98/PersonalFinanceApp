@@ -358,7 +358,7 @@ Error generating stack: `+a.message+`
 `,Md=Tt.button`
   width: 100%;
   padding: 0.75rem;
-  border-radius: 12px;
+  border-radius: 0.8rem;
   font-size: 0.9rem;
   font-weight: 600;
   text-align: center;
