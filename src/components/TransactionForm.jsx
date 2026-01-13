@@ -14,10 +14,11 @@ const StyledOverlay = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media ${device.mobile} {
-    overflow: auto;
+  @media ${device.mobileLandscape} {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     align-items: flex-start;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 `;
 
@@ -48,7 +49,8 @@ const StyledFormWrapper = styled.div`
   }
 
   @media ${device.mobile} {
-   width:80%;    
+    width: 80%;
+  }
 `;
 
 const StyledTitleDiv = styled.div`
