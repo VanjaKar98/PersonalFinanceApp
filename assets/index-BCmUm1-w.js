@@ -246,10 +246,11 @@ Error generating stack: `+a.message+`
   justify-content: center;
   align-items: center;
 
-  @media ${Ja.mobile} {
-    overflow: auto;
+  @media ${Ja.mobileLandscape} {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     align-items: flex-start;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 `,Yv=Tt.div`
   position: relative;
@@ -278,7 +279,8 @@ Error generating stack: `+a.message+`
   }
 
   @media ${Ja.mobile} {
-   width:80%;    
+    width: 80%;
+  }
 `,Gv=Tt.div`
   width: 100%;
   display: flex;
