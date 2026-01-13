@@ -9,16 +9,16 @@ const StyledOverlay = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
+  padding: 1.5rem;
   background: var(--bg-primary);
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 
-  @media ${device.mobileLandscape} {
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+  @media (${device.mobileLandscape} and ${device.shortViewport}) {
     align-items: flex-start;
-    padding: 1rem;
   }
 `;
 
