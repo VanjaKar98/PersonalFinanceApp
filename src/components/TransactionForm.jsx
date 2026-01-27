@@ -48,6 +48,10 @@ const StyledFormWrapper = styled.div`
     gap: 1rem;
   }
 
+  @media ${device.tablet} {
+    width: 60%;
+  }
+
   @media ${device.mobile} {
     width: 80%;
   }
