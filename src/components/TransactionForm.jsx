@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { device } from "../styles/breakpoints";
+import { device } from "../config/breakpoints";
 
 const StyledOverlay = styled.div`
   position: fixed;

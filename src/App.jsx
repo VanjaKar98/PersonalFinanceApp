@@ -6,7 +6,7 @@ import TransactionForm from "./components/TransactionForm.jsx";
 
 import { createGlobalStyle } from "styled-components";
 
-import { device } from "./styles/breakpoints.js";
+import { device } from "./config/breakpoints.js";
 
 import { useState } from "react";
 
